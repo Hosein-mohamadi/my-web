@@ -9,7 +9,7 @@ export default function Abute() {
 
   return (
     <div
-      className="bg-gray-900 h-auto pb-12 py-5 "
+      className="bg-gray-900 h-screen pb-12 py-5 "
       dir={i18n.language === "fa" ? "rtl" : "ltr"}
     >
       <Fade left>

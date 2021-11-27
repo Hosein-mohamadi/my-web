@@ -46,7 +46,7 @@ export default function Contact() {
       dir={i18n.language === "fa" ? "rtl" : "ltr"}
     >
       <Fade bottom>
-        <div>
+        <div className="mt-5">
           <Navbar />
           <div>
             <div className=" pt-10 text-center">

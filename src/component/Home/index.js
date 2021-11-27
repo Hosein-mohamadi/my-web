@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <div
       dir={i18n.language === "fa" ? "rtl" : "ltr"}
-      className="py-5 pb-12 bg-gray-900 h-auto"
+      className="py-5 pb-12 bg-gray-900 h-screen"
     >
       <Fade top>
         <div>
           <Navbar />
           <Btnvav />
-          <div className="md:grid  md:grid-cols-2">
+          <div className="md:grid mt-24 md:grid-cols-2">
             <div className="md:mx-20 flex justify-center grid-cols-12 mt-20">
               <img
                 className="lg:w-96  w-60 rounded-lg"
@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <div className="font-bold grid-cols-12 mx-5 md:mx-9 text-md text-justify text-white md:mt-44 mt-20">
               <Roll le>
-                <h1 className="break-words">
+                <h1 className="break-words ">
                   {t("h1")}
                   <br />
                   <span className="md:text-4xl text-3xl transition duration-700 ease-in-out transform rotate-90 ">
